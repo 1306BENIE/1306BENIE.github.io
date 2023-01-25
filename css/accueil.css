@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.eot?#iefix') format('embeddedopentype'),
+	url('polices/dayrom.woff') format('woff'),
+	url('polices/dayrom.ttf') format('truetype'),
+	url('polices/dayrom.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#logo{
+	height: 90px;
+	width: 90px;
+	float: left;
+}
+
+#nav{
+	height: 90px;
+	background-color: #5A8CD7;
+}
+
+#nav ul{
+	margin-top: 35px;
+	display: flex;
+	float: right;
+
+}
+
+.nav_li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.nav_li a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 12em;
+	color: #FFF;
+}
+
+.nav_li a:hover{
+	border-bottom: 
+}
+
+
+#le_corps{
+	height:766px;
+	border: 1px solid black;
+	background-image: url("../img/voiture.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#le_corps h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 8px 8px 8px #000; 
+	margin-top: 8em;
+	font-weight: bold; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
