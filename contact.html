@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>assurance automobile</title>
+</head>
+<body>
+    <!--- L'entete de ma page --->
+    <header>
+        <nav id="nav">
+            <p><img src="img/logo.png" id="logo"></p>
+            <ul>
+                <li class="nav_li"><a href="file:///Users/imac_14/Desktop/mon_projet_nan/projet_html/index.html">Accueil</a></li>
+
+                <div class="dropdown" style="float:left;">
+                    <li class="nav_li" class="dropbtn"><a href="#">Véhicule</a></li>
+                    <div class="dropdown-content" style="left:0;">
+                        <a href="file:///Users/imac_14/Desktop/mon_projet_nan/projet_html/automobile.html">Automobile</a>
+                        <a href="file:///Users/imac_14/Desktop/mon_projet_nan/projet_html/moto.html">Moto</a>
+                        <a href="#">Nos offres</a>
+                    </div>
+                </div>
+
+                <li class="nav_li"><a href="#">Nos offres</a></li>
+                <li class="nav_li"><a href="#">contactez-nous</a></li>
+                <li class="nav_li"><a href="file:///Users/imac_14/Desktop/mon_projet_nan/projet_html/sommes_nous.html">Qui nous-sommes ?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- Le corps de ma page --->
+    <main>
+        <section>
+
+            <div class="contactez-nous">
+                <h1>Contactez-nous</h1>
+                <p>Un problème, une question ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <form action="/page-traitement-donnees" method="post">
+                    <div>
+                        <label for="nom">Votre nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Bénie" required>
+                    </div>
+                    <div>
+                        <label for="nom">Votre prénom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Sylvestre" required>
+                    </div>
+                    <div>
+                        <label for="email">Votre e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                    </div>
+                    <div>
+                        <label for="sujet">Quel est le sujet de votre message ?</label>
+                        <select name="sujet" id="sujet" required>
+                            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                            <option value="probleme-compte">Problème avec mon compte</option>
+                            <option value="question-produit">Question à propos d’un produit</option>
+                            <option value="suivi-commande">Suivi de ma commande</option>
+                            <option value="autre">Autre...</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                    </div>
+                        <div>
+                        <button type="submit">Envoyer mon message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+<!---Le pied de page--->
+    <footer>
+        <div id="pied_page">
+            <div class="bloc_pied">
+                <h3>Produits</h3>
+                <p> Assurance auto</p>
+                <p>Assurance moto</p>
+            </div>
+            <div class="bloc_pied">
+                <h3>Devise en ligne</h3>
+                <p>  Devise assurance auto</p>
+                <p> Devise assurance moto</p>
+            </div>
+            <div class="bloc_pied">
+                <h3>Tout en direct sur assurance</h3>
+                <p>  Avis de nos clients</p>
+                <p> Avis direct assurance</p>
+            </div>
+            <div class="bloc_pied">
+                <h3>Réseaux sociaux</h3>
+                <p>
+                    <img src="img/Facebook_icon.svg.png" width="25px" height="25px">
+                    <img src="img/37226.png" width="25px" height="25px">
+                    <img src="img/Instagram_icon.png" width="25px" height="25px">
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

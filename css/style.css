@@ -1,0 +1,533 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom.eot?#iefix') format('embeddedopentype'),
+	url('polices/dayrom.woff') format('woff'),
+	url('polices/dayrom.ttf') format('truetype'),
+	url('polices/dayrom.svg#Dayrom') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#logo{
+	height: 90px;
+	width: 90px;
+	float: left;
+}
+
+#nav{
+	height: 90px;
+	background-color: #5A8CD7;
+}
+
+#nav ul{
+	margin-top: 35px;
+	display: flex;
+	float: right;
+
+}
+
+.nav_li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.nav_li a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 12em;
+	color: #FFF;
+}
+
+.nav_li a:hover{
+	border-bottom: 
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+#le_corps{
+	height:766px;
+	border: 1px solid #232;
+	background-image: url("../img/voiture.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#le_corps h1{
+	height: 125px;
+	width: 35%;
+	margin-left: 20em;
+	padding-top: 25px;
+	border: 3px solid #FFF;
+	border-color: #5A8CD7;
+	background-color: #5A8CD7;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 0 2px 1px #000, 
+      -1px 3px 1px #000, 
+      -2px 5px 1px #000;  
+	margin-top: 8em;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.6px;
+	-webkit-text-stroke-color:#000;
+
+}
+#bloc_conteneur{
+	height: 790px;
+	border: 1px solid #FFF;
+	background-color: #3AE0EA;
+}
+
+#titre_paragraphe{
+	height: 190px;
+	margin-top: 2em;
+
+}
+
+#titre_paragraphe h2{
+
+	margin-left: 6em;
+	font-size: 35px;
+}
+
+
+#titre_paragraphe p{
+	margin-left: 5em;
+	margin-top: 4em;
+	font-size: 25px;
+}
+
+#sous_conteneur{
+	height: 480px;
+	margin-top: 10px;
+}
+.conteneur_float{
+	height: 470px;
+	width: 22%;
+	display: inline-block;
+	margin-top: 5px;
+	border: 1px solid #111;
+	margin-left: 45px;
+	border-radius: 15px;
+	box-shadow: 3px 3px #123;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+.sous_div_1{
+	height: 50px;
+	border: 1px solid #000;
+}
+
+.sous_div_1 h4{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.sous_div_2{
+	height: 250px;
+	border: 1px solid #121;
+	box-shadow: 3px 3px #151515;
+}
+
+.sous_div_3{
+	height: 160px;
+	border: 1px solid red;
+	font-size: 25px;
+	
+}
+
+.sous_div_3 p{
+	margin-top: 10px;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 2px;
+	vertical-align: middle;
+}
+
+#pied_page{
+	height: 140px;
+	background-color: #5A8CD7;
+}
+
+.bloc_pied{
+	color: #FFF;
+	width: 18%;
+	display: inline-block;
+	margin-left: 110px;
+	margin-top: 40px;
+	font-size: 18px;
+	padding-left: 25px;
+	letter-spacing: 1px;
+}
+
+
+
+.bloc_pied h3{
+	margin-bottom: 10px;
+}
+
+.bloc_pied img{
+	margin-left: 20px;
+}
+
+
+
+/* LA DEUXIEME PARTIE QUI NOUS-SOMMES */
+#sommes_nous_conteneur{
+	height: 900px;
+}
+
+#sn_sous_conteneur{
+	height: 400px;
+}
+
+#sn_sous_conteneur h1{
+	margin-top: 15px;
+	text-align: center;
+	color: #496EBD;
+	font-size: 35px;
+
+}
+
+#sn_sous_conteneur h5{
+	margin-top: 45px;
+	font-size: 20px;
+	margin-left: 10em;
+
+}
+
+#sn_sous_conteneur p{
+	font-size: 25px;
+	margin-top: 3em;
+	margin-left: 8em;
+	line-height: 35px;
+
+}
+
+#sn_bloc{
+	height: 485px;
+}
+
+
+.sn_sous_bloc{
+	height: 478px;
+	width: 45%;
+	margin-left: 45px;
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+#sn_sous_bloc{
+	margin-left: 25em;
+	width: 30%;
+}
+
+.sn_sous_bloc h1{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 2em;
+	color: #496EBD;
+}
+
+.sn_sous_bloc p{
+	font-size: 25px;
+	margin-top: 3em;
+	margin-left: 6em;
+}
+
+
+/* LA TROISIEME PARTIE CONTACTEZ NOUS */
+
+
+.contactez-nous {
+width:600px;
+border: 1px solid;
+border-radius: 8px;
+padding: 0 50px 0 50px;
+background: #5A8CD7;
+margin-left: 30em;
+margin-top: 4em;
+margin-bottom: 3em;
+box-shadow: 3px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.contactez-nous > h1 {
+font-weight: 500;
+}
+
+.contactez-nous > p {
+font-weight: 300;
+}
+
+form div {
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 83px;
+margin-top: 25px;
+}
+
+form div > label {
+margin-bottom: 7px;
+font-weight: 600;
+color: #FFF;
+}
+
+form div > input, form div > select, form div > textarea {
+background: #FFF;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+font-family: Montserrat, "sans-serif";
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+form div > input, form div > select {
+height: 50px;
+padding-left: 10px;
+}
+
+form div > select {
+appearance: none;
+background-size: 15px;
+background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+background-position: right 10px top 50%;
+background-repeat: no-repeat;
+}
+
+form div > textarea {
+height: 195px;
+padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder, form div > textarea::placeholder {
+color: #121212;
+}
+
+form div > select:invalid {
+color: white;
+}
+
+form div > select option {
+background: white;
+color: #303030;
+}
+
+form div:last-child {
+align-items:center;
+margin-top: 20px;
+}
+
+form button {
+width: 450px;
+max-width: 500px;
+height: 60px;
+font-weight: 700;
+font-size: 28px;
+background: #5A8CD7;
+border: rgba(48, 48, 48, 0.5) solid 1px;
+border-radius: 5px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+color: #FFF;
+}
+
+
+/* LA QUATRIEME PARTIE AUTOMOBILE */
+
+#bloc_automobile{
+	height: 1345px;
+}
+
+#bloc_img{
+	height: 500px;
+	background-image: url("../img/voiture_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#bloc_text{
+	height: 190px;
+	width: 25%;
+	position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#bloc_text h2{
+	margin-bottom: 90px;
+	margin-top: 15px;
+	color: #496EBD
+}
+
+#bloc_info{
+	height: 600px;
+	margin-top: 15em;
+}
+
+
+.sous_blog_info{
+	height: 590px;
+	width: 48%;
+	display: inline-block;
+	margin-left: 25px;
+	overflow: hidden;
+}
+
+#sous_blog_info_1{
+	width: 30%;
+	margin-right: 20em;
+	margin-left: 5em;
+	background-image: url("../img/DiminuerPrimeAuto.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#sous_blog_info_2{
+	width: 35%;
+	font-size: 25px;
+
+}
+
+/* LA CINQUIEME PARTIE MOTO */
+
+#bloc_moto{
+	height: 1345px;
+}
+
+#blocs_img{
+	height: 500px;
+	background-image: url("../img/dassurance-moto.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#blocs_text{
+	height: 190px;
+	width: 25%;
+	position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#blocs_text h2{
+	margin-bottom: 90px;
+	margin-top: 15px;
+	color: #496EBD
+}
+
+#blocs_info{
+	height: 600px;
+	margin-top: 15em;
+}
+
+
+.sous_blogs_info{
+	height: 590px;
+	width: 48%;
+	display: inline-block;
+	margin-left: 25px;
+	overflow: hidden;
+}
+
+#sous_blogs_info_1{
+	width: 30%;
+	margin-right: 20em;
+	margin-left: 5em;
+	background-image: url("../img/moto2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#sous_blogs_info_2{
+	width: 35%;
+	font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
