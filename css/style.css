@@ -46,7 +46,7 @@
 }
 
 .nav_li a:hover{
-	border-bottom: 
+	border-bottom: #FFF;
 }
 
 .dropbtn {
@@ -507,6 +507,92 @@ color: #FFF;
 	font-size: 25px;
 
 }
+
+
+
+/* LA SIXIEME PARTIE NOS FORMULES */
+
+
+#bloc_formules{
+	height: 1450px;
+	border: 1px solid #AA8812;
+}
+
+
+#sous_bloc_formules{
+	height: 300px;
+}
+
+#sous_bloc_formules h1{
+	text-align: center;
+	margin-top: 65px;
+	font-size: 35px;
+	color: #5A8CD7;
+}
+
+
+#sous_bloc_formules p{
+	margin-left: 15em;
+	font-size: 25px;
+}
+
+
+#bloc_img_formules{
+	height: 555px;
+	width: 45%;
+	position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("../img/depositphotos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#dernier_bloc{
+	height: 400px;
+	width: 60%;
+	margin-top: 30em;
+    top: 78%;
+    left: 50%;
+    transform: translate(35%,20%);
+}
+
+
+#dernier_bloc h2{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+
+#dernier_bloc p{
+	font-size: 25px;
+	line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
