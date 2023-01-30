@@ -46,7 +46,14 @@
 }
 
 .nav_li a:hover{
-	border-bottom: #FFF;
+	border-bottom: 5px solid #FFF;
+	color: #5A8CD7;
+	background-color: #FFF;
+	padding: 15px;
+	border-radius: 12px;
+	border-inline-start-width: 10px;
+  	border-inline-start-style: solid;
+  	border-inline-start-color: pink;
 }
 
 .dropbtn {
